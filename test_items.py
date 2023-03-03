@@ -10,3 +10,4 @@ class TestMainPage1():
         browser.get(link)
         button = browser.find_elements(By.CSS_SELECTOR, "#add_to_basket_form > button")
         assert button, "Something is wrong"
+
